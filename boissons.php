@@ -7,8 +7,8 @@ $boissons=array(
 
 
 ?>
-<h2>Liste des boissons disponibles</h2>
-<table>
+<h2 >Liste des boissons disponibles</h2>
+<table class="table">
 	<thead>
 	<tr>
 	<th>Nom de la boisson</th><th>Alcool</th><th>Prix</th>
@@ -18,7 +18,7 @@ $boissons=array(
 	<?php
 		foreach($boissons as $boisson){
 		echo "<tr>";
-		echo "<td>".$boisson['nom']."</td><td>".$boisson['alcool']."</td><td>".$boisson['prix']."</td>";
+		echo "<td>".$boisson['nom']."</td><td>".$boisson['alcool']."</td><td>".$boisson['prix']." €</td>";
 		echo "</tr>";
 		};
 	?>
