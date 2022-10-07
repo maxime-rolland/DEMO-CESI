@@ -8,7 +8,7 @@ $concerts=array(
 ?>
 
 
-<h2>Liste des concerts à venir</h2>
+<h2> <i class="bi bi-ticket-perforated-fill text-secondary"></i><span class="pl-4">Liste des concerts à venir</span></h2>
 <table class="table">
 	<thead>
 	<tr>

@@ -7,7 +7,7 @@ $boissons=array(
 
 
 ?>
-<h2 >Liste des boissons disponibles</h2>
+<h2 > <i class="bi bi-cup-straw text-primary"></i>Liste des boissons disponibles</h2>
 <table class="table">
 	<thead>
 	<tr>
